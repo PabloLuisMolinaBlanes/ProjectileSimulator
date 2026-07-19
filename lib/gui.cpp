@@ -1,5 +1,4 @@
-#include <wx/app.h>
-#include <wx/frame.h>
+#include <wx/wx.h>
 
 namespace ApplicationExample {
   class Application : public wxApp {
