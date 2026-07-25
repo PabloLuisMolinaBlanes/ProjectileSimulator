@@ -1,0 +1,2 @@
+add_library(phys_engine phys_engine.cpp)
+target_link_libraries(phys_engine PRIVATE physics_functions)

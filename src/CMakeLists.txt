@@ -1,1 +1,3 @@
+add_subdirectory(physics_functions)
+add_subdirectory(phys_engine)
 add_subdirectory(gui)
