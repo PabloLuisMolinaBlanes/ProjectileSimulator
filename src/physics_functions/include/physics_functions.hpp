@@ -2,5 +2,6 @@
 float getFinalPositionConstantVelocity(float initial_position, float velocity, float time);
 
 /**/
-float getFinalPositionWithAcceleration(float initial_position, float velocity, float time, float acceleration)
+float getFinalPositionWithAcceleration(float initial_position, float velocity, float time, float acceleration);
 
+float getFinalVelocity(float initial_velocity, float acceleration, float time);
