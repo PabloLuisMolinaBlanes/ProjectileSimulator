@@ -9,3 +9,5 @@ FetchContent_Declare(
     SYSTEM
 )
 FetchContent_MakeAvailable(googletest)
+add_subdirectory(phys_functions_tests)
+add_subdirectory(phys_engine_tests)
