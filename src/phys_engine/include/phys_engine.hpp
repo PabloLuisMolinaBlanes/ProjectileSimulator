@@ -10,4 +10,4 @@ typedef struct State {
 } State;
 
 /*Simulates the trajectory of a single projectile in 2 dimensions*/
-float simulateProjectile(struct State initial, float timeStep);
+State * simulateProjectile(State initialState, float timeStep, float finalTime);
